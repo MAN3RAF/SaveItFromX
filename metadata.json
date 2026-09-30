@@ -1,0 +1,6 @@
+{
+  "name": "SaveItFromX – X & Twitter Video & Audio Downloader",
+  "description": "Download X (Twitter) videos and MP3 audio in Full HD 1080p, 720p, and 320kbps. Free, fast, and works seamlessly across all devices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

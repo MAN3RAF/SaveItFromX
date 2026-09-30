@@ -1,0 +1,21 @@
+{
+  "name": "saveitfromx-root",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build && npm --prefix backend run build",
+    "typecheck": "npm --prefix frontend run typecheck && npm --prefix backend run typecheck",
+    "lint": "npm --prefix frontend run lint && npm --prefix backend run lint",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:backend": "npm --prefix backend run build",
+    "test": "node --test --test-reporter=spec || true"
+  }
+}
